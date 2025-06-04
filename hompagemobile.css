@@ -10,7 +10,7 @@ body {
 
 #sec1 {
   width: 100vw;
-  height: 5vw;
+  height: 3vh;
   display: flex;
   background-color: black;
   margin: 0.5vw;
@@ -19,6 +19,7 @@ body {
 #h1 {
   font-family: 'Quantico', 'Farsan', 'Fugaz One', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: rgb(233, 217, 127);
+  font-size: 2vh;
   margin: 0.5vw;
   padding: 0.2vw;
   position: relative;
@@ -50,19 +51,22 @@ body {
   }
 
 }
+
 #img1cont
 {
   height: 100%;
   width: auto;
+  margin-left: 2vh;
 }
 #img1
 {
   height: 100%;
   width: 100%;
 }
-
 #btn1 {
   margin-right: 2vw;
+  height: auto;
+  width: auto;
   padding: 0.2vw;
   color: white;
   background: none;
