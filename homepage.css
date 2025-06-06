@@ -10,7 +10,7 @@ body {
 
 #sec1 {
   width: 100vw;
-  height: 5vw;
+  height: 7vw;
   display: flex;
   background-color: black;
   margin: 0.5vw;
@@ -23,6 +23,7 @@ body {
   padding: 0.2vw;
   position: relative;
   overflow: hidden;
+  font-size: 4vw;
 }
 
 #h1::before {
@@ -52,6 +53,7 @@ body {
 }
 #img1cont
 {
+ 
   height: 100%;
   width: auto;
 }
@@ -59,7 +61,18 @@ body {
 {
   height: 100%;
   width: 100%;
+  animation: rotate 15s linear infinite;
 }
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg)
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+
+  }
 
 #btn1 {
   margin-right: 2vw;

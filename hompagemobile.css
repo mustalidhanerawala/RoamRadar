@@ -7,23 +7,22 @@
 body {
   background-color: black;
 }
-
-#sec1 {
+#sec1 
+{
   width: 100vw;
-  height: 3vh;
+  height: 5.5vh;
   display: flex;
   background-color: black;
   margin: 0.5vw;
 }
-
 #h1 {
   font-family: 'Quantico', 'Farsan', 'Fugaz One', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: rgb(233, 217, 127);
-  font-size: 2vh;
   margin: 0.5vw;
   padding: 0.2vw;
   position: relative;
   overflow: hidden;
+  font-size: 4vh;
 }
 
 #h1::before {
@@ -39,7 +38,8 @@ body {
 
 }
 
-@keyframes type {
+@keyframes type 
+{
 
   40%,
   60% {
@@ -49,24 +49,32 @@ body {
   100% {
     left: 0%;
   }
-
 }
-
 #img1cont
 {
   height: 100%;
   width: auto;
-  margin-left: 2vh;
 }
 #img1
 {
   height: 100%;
   width: 100%;
+  margin-top: 0.5vh;
+  animation: rotate 15s linear infinite;
 }
-#btn1 {
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg)
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+
+  }
+
+  #btn1 {
   margin-right: 2vw;
-  height: auto;
-  width: auto;
   padding: 0.2vw;
   color: white;
   background: none;
@@ -76,4 +84,3 @@ body {
   margin-left: auto;
   align-self: flex-start;
 }
-
