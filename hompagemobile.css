@@ -136,3 +136,41 @@ body {
   box-shadow: 0 0 1vw rgba(255, 166, 0, 0.6);
   transform: scale(1.05);
 } 
+
+
+#sec3 {
+  background-color: #111;
+  color: #f1f1f1;
+  padding: 4vw 6vw;
+  margin: 2vh;
+  border-radius: 1vw;
+  box-shadow: 0 0 2vw rgba(255, 140, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+#p1 {
+  font-size: 2vh; /* Responsive text size using vw */
+  line-height: 3vh; /* Scales nicely with font size */
+  text-align: justify;
+  font-family: 'Space Mono', 'Farsan', 'Gill Sans', sans-serif;
+  margin: 0;
+  color: #f1f1f1;
+}
+
+#img2cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vw;
+}
+
+#img2 {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1vw;
+  box-shadow: 0 0 1.5vw rgba(255, 165, 0, 0.4);
+}
