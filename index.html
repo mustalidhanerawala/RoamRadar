@@ -14,6 +14,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Farsan&family=Fugaz+One&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+
     <link rel="stylesheet" href="homepage.css">
     <link rel="stylesheet" href="hompagemobile.css" media="(max-width: 768px)">
 
@@ -31,13 +38,63 @@
         <div id="sec2-d1">
             <input type="text" id="sec2-t1" placeholder="Enter a city name...">
             <button id="btn2">Search</button>
-        </div> 
+        </div>
     </div>
-    <div id="sec3">
+    <div id="sec3" style="display: none;">
         <p id="p1"></p>
         <div id="img2cont"><img id="img2" src=""></div>
+        <!-- <h3 id="h3">Weather And Important info</h3> -->
     </div>
-<script src="homepage.js"></script>
+    <div id="sec4" style="display: none;">
+        <h3 id="h3">Weather And Important info</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Icon</th>
+                    <th>Detail</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="wi wi-day-sunny"></i></td>
+                    <td>Condition</td>
+                    <td id="condition"></td>
+                </tr>
+                <tr>
+                    <td><i class="wi wi-thermometer"></i></td>
+                    <td>Temperature</td>
+                    <td>30°C</td>
+                </tr>
+                <tr>
+                    <td><i class="wi wi-humidity"></i></td>
+                    <td>Humidity</td>
+                    <td>55%</td>
+                </tr>
+                <tr>
+                    <td><i class="wi wi-strong-wind"></i></td>
+                    <td>Wind Speed</td>
+                    <td>12 km/h</td>
+                </tr>
+                <tr>
+                    <td><i class="wi wi-barometer"></i></td>
+                    <td>Pressure</td>
+                    <td>1013 hPa</td>
+                </tr>
+                <tr>
+                    <td><i class="wi wi-sunrise"></i></td>
+                    <td>Sunrise</td>
+                    <td>6:10 AM</td>
+                </tr>
+                <tr>
+                    <td><i class="wi wi-sunset"></i></td>
+                    <td>Sunset</td>
+                    <td>6:45 PM</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="homepage.js"></script>
 </body>
 
 </body>
